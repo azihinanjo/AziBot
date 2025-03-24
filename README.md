@@ -6,3 +6,4 @@ Develop by Aziflyclub(Azilamo)
 No, This is Aziflyclub exclusive bot
 but, Allowed only in certain cases
 (this readme english is very strange)
+# えいごってなぬ？
