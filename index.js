@@ -33,14 +33,14 @@ createClient(supabaseUrl, supabaseAnonKey);
 
 //gemini
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-const genAI = new GoogleGenerativeAI("AIzaSyBKfQFKrtywNWrKW2tJF5NMx9Z66KBzwok");
+const genAI = new GoogleGenerativeAI("apikey");
 const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
 //aiml
 const { OpenAI } = require("openai");
 const baseURL = "https://api.aimlapi.com/v1";
 
-const apiKey = "404f8e1b2da74b30b46d4fc7f4ead191"; 
+const apiKey = "apikey"; 
 
 const api = new OpenAI({
     apiKey,
